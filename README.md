@@ -39,18 +39,22 @@ pumpfun-pools/
 ├── package.json         # Workspace metadata
 ├── README.md
 └── .env.example         # RPC + keypair config
----
-🚀 Getting Started
+```
+## 🚀 Getting Started
 1. Clone the repo
-bash
-Copy code
+
+```bash
 git clone https://github.com/your-username/pumpfun-pools.git
 cd pumpfun-pools
+```
+
 2. Install dependencies
-bash
-Copy code
+```bash
 npm install
+```
+
 3. Set up environment variables
+```bash
 Copy .env.example to .env and configure:
 
 Solana RPC URL
@@ -58,17 +62,20 @@ Solana RPC URL
 Wallet keypair path
 
 Program ID
+```
 
 4. Build and deploy program
-bash
-Copy code
+```bash
 anchor build
 anchor deploy
+```
+
 5. Run the frontend
-bash
-Copy code
+```bash
 cd app
 npm run dev
+```
+
 🛠️ Tech Stack
 Anchor (Rust) → Staking + rewards program on Solana
 
