@@ -39,6 +39,7 @@ pumpfun-pools/
 ├── package.json         # Workspace metadata
 ├── README.md
 └── .env.example         # RPC + keypair config
+---
 🚀 Getting Started
 1. Clone the repo
 bash
